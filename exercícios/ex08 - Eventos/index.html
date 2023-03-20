@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        #div1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #div2 {
+            margin: auto;
+            margin-top: 30px;
+            background-color: blue;
+            width: 500px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <h1>Aprendendo JavaScript</h1>
+        <h2>Eventos JavaScript</h2>
+        <button onclick="eventoClick()">Clique aqui</button>
+    </div>
+
+    <!-- -------------------------- -->
+
+    <div id="div2" onmouseout="viraAzul()" onmouseover="viraVermelho()">
+
+    </div>
+
+    <!-- -------------------------- -->
+
+    <script src="index.js"></script>
+</body>
+</html>
